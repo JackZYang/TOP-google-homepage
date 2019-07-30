@@ -5,26 +5,16 @@
 body {
     margin: 0;
 }
-
-ul {
-    list-style: none;
+nav {
+    padding: 20px;
     font-size: 12px;
 }
-
-li {
-    display: inline-block;
-}
-
 #left-nav {
     float: left;
 }
 
 #right-nav {
     float: right;
-}
-
-img {
-    max-width: 200px;
 }
 
 a {
@@ -43,23 +33,26 @@ a:hover {
     padding: 5px 12px;
 }
 
-input {
-    border-radius: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.164);
-    padding: 15px;
-    width: 575px;
-    margin: 0px;
+img {
+    max-width: 250px;
+    margin-top: 200px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-button {
-    font-size: 12px;
-    border: none;
-    border-radius: 5px;
-    background: #f2f2f2;
-    cursor: pointer;
-    margin-top: 30px;
-    margin-right: 10px;
+form {
+    text-align: center;
+}
+
+input {
+    border-radius: 40px;
+    border: 1px solid #bababa;
     padding: 15px;
+    width: 500px;
+    margin: 0px;
 }
 
 input:hover, input:focus{
@@ -70,11 +63,31 @@ input:focus {
     outline:none;
 }
 
+#search-buttons {
+    padding: 20px;
+}
+
+button {
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #f2f2f2;
+    cursor: pointer;
+    padding: 13px 15px;
+    color: #595959;
+}
+
+button:hover {
+    border: 1px solid #bababa;
+}
+
 footer {
     background-color: #F0F0F0;
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding: 10px;
+    font-size: 12px;
 }
 
 #left-footer {
