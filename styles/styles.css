@@ -11,10 +11,12 @@ nav {
 }
 #left-nav {
     float: left;
+    margin-right: 20px;
 }
 
 #right-nav {
     float: right;
+    margin-left: 20px;
 }
 
 a {
@@ -77,7 +79,7 @@ button {
     color: #595959;
 }
 
-button:hover {
+#search-buttons button:hover {
     border: 1px solid #bababa;
 }
 
@@ -92,8 +94,10 @@ footer {
 
 #left-footer {
     float: left;
+    margin-left: 20px;
 }
 
 #right-footer {
     float: right;
+    margin-right: 20px;
 }
